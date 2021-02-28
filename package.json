@@ -1,0 +1,19 @@
+{
+  "name": "backend.uvnightshade.net",
+  "version": "1.0.0",
+  "description": "backend server for uvnightshade.net",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadePi/backend.uvnightshade.net.git"
+  },
+  "author": "ShadePi, NightShade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShadePi/backend.uvnightshade.net/issues"
+  },
+  "homepage": "https://github.com/ShadePi/backend.uvnightshade.net#readme"
+}
