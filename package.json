@@ -4,7 +4,8 @@
   "description": "backend server for uvnightshade.net",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ShadePi/backend.uvnightshade.net/issues"
   },
-  "homepage": "https://github.com/ShadePi/backend.uvnightshade.net#readme"
+  "homepage": "https://github.com/ShadePi/backend.uvnightshade.net#readme",
+  "dependencies": {
+    "google-auth-library": "^7.0.2"
+  }
 }
