@@ -1,4 +1,5 @@
 const express = require('express');
+const router = express.Router();
 const cors = require('cors');
 const mongoose = require('mongoose');
 
@@ -17,6 +18,12 @@ const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("MongoDB database connection established successfully!");
 })
+
+router.get('/', (req,res) => {
+	res.send('App Not Working')
+});
+
+app.use("/", router);
 
 app.listen(port, () => {
     console.log(`Server is running on port: http://localhost:${port}`);
