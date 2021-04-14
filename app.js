@@ -20,11 +20,11 @@ connection.once('open', () => {
 })
 
 router.get('/', (req,res) => {
-	res.send('App Not Working')
+	res.status(200).send('App Not Working')
 });
 
 router.get('/*', (req,res) => {
-	res.sendStatus(404)
+	res.status(404).send('Page Not Found')
 })
 
 app.use("/", router);
