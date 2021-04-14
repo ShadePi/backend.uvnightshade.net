@@ -23,6 +23,10 @@ router.get('/', (req,res) => {
 	res.send('App Not Working')
 });
 
+router.get('/*', (req,res) => {
+	res.sendStatus(404)
+})
+
 app.use("/", router);
 
 app.listen(port, () => {
